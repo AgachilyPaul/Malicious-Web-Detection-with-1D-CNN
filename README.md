@@ -2,4 +2,4 @@
 ## Description:
 I built a model to detect malicious web detection with 1D-CNN. I explored the data first, then do tokenization on the these urls, padding them to same length. Next I encoded the character variables(subdomain, domain, suffix domains and label) to numeric variables. Afterwards, the1D-CNN model was trained with 4 inputs: the data from tokenizated urls, encoded subdomains, domains and suffix domains. I also tried to use early stopping technique later, which gave better performance.
 ## Results:
-<img src='./pics/pic1.png'>
+<img src='https://github.com/AgachilyPaul/Malicious-Web-Detection-with-1D-CNN/blob/master/pics/pic1.PNG'>
